@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;	
+	font-family: 'Raleway';
+
+}
+body{
+	background-color: #f4f4f4;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #232020;
+	color: #f4f4f4;
+}
+	footer div{
+		color: white;
+	}
+section div h1{
+	font-weight: 900;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #3a3535;
+    margin: 1em 0;
+    padding: 0; 
+}
+.subfoot{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+#logo{
+	
+}
+.text_logo{
+	color: #f4f4f4;
+}
+.nav{
+	justify-content: space-between;
+	background-color: #232020;
+	min-height: 4rem;
+	align-items: center;
+}
+.rsubnav{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+}
+.links{
+	text-decoration: none;
+	color: #ff7315;
+}
+.links:hover{
+	text-decoration: none;
+	font-weight: 900;
+	color: #ff7315;
+}
+.services{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.mt2{
+	margin-top: 2%;
+}
+.serv{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+.c_nar{
+	color: #ff7315;
+}
+.mainimg{
+	width: 100%;
+	height: auto;
+}
+.ag-icono{
+	font-size: 15vh;
+}
+.ag-col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*boot override*/
+.ag-container-full{
+  margin: 0;
+  width: 100%;
+}
+
+/*colores*/
+/*naranja ff7315*/
+/*Negro oscuro 232020*/
+/*Negro claro 3a3535*/
+/*Blanco f4f4f4*/
